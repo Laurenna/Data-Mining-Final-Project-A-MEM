@@ -1,0 +1,96 @@
+{
+  "fingerprint": "b5c15a057cce8ee3d351eaf3bb8a0aae4b879a308d85838962f813e0a69b67cf",
+  "configuration": {
+    "method": "full_history_control_v1",
+    "model": "deepseek-flash",
+    "thinking": "disabled",
+    "dataset_sha256": "79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4",
+    "amem_answers_sha256": "ccc8a917f33fb624535a3a965f0ef90edbeb94d6193c96d20317f13bdd5803a1",
+    "sampling_manifest_sha256": "4489bb2ab17fe3ee15f0c4a7ff4012efb4bcdac83e28d234e32a5d536fff852e",
+    "prompt_sha256": "04d89b856531c69d68f3300b8bb1bf66820faf872801b67a337b24aa53f9d6c5",
+    "settings_sha256": "7be38c2153c7f00e32f9adc1f00e17f86154b2bb2224843d3b5564f295e67516",
+    "code_sha256": {
+      "run_full_history.py": "171d5b0626012e9566fc871073a5591496225dda2149524e3b655bcf36734b19",
+      "deepseek_adapter.py": "7de72d12fc9b0380d507e03911960c1af3ee29def5ec8bdd206dbf44a7135089",
+      "audit_evaluation.py": "96616858557223dd6f8d0d8aaa5ea100324ca5191ac17b218b882279f5bda894"
+    }
+  },
+  "groups": [
+    {
+      "sample_index": 0,
+      "turns": 419,
+      "history_characters": 68164,
+      "history_utf8_bytes": 68180,
+      "questions": 20
+    },
+    {
+      "sample_index": 1,
+      "turns": 369,
+      "history_characters": 48929,
+      "history_utf8_bytes": 48939,
+      "questions": 20
+    },
+    {
+      "sample_index": 2,
+      "turns": 663,
+      "history_characters": 101436,
+      "history_utf8_bytes": 101453,
+      "questions": 20
+    },
+    {
+      "sample_index": 3,
+      "turns": 629,
+      "history_characters": 83559,
+      "history_utf8_bytes": 83567,
+      "questions": 20
+    },
+    {
+      "sample_index": 4,
+      "turns": 680,
+      "history_characters": 100347,
+      "history_utf8_bytes": 100362,
+      "questions": 20
+    },
+    {
+      "sample_index": 5,
+      "turns": 675,
+      "history_characters": 97542,
+      "history_utf8_bytes": 97550,
+      "questions": 20
+    },
+    {
+      "sample_index": 6,
+      "turns": 689,
+      "history_characters": 92870,
+      "history_utf8_bytes": 92928,
+      "questions": 20
+    },
+    {
+      "sample_index": 7,
+      "turns": 681,
+      "history_characters": 88178,
+      "history_utf8_bytes": 88182,
+      "questions": 20
+    },
+    {
+      "sample_index": 8,
+      "turns": 509,
+      "history_characters": 72644,
+      "history_utf8_bytes": 72684,
+      "questions": 20
+    },
+    {
+      "sample_index": 9,
+      "turns": 568,
+      "history_characters": 93372,
+      "history_utf8_bytes": 93394,
+      "questions": 20
+    }
+  ],
+  "questions": 200,
+  "history_policy": "All turns retained; no truncation or summarization",
+  "prompt_policy": "Replace only raw_context in each saved A-Mem answer prompt; preserve all other text",
+  "context_limit_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "context_limit_checked_date": "2026-11-12",
+  "caveat": "Paired full-history control, not an exact reproduction of the original LoCoMo baseline implementation."
+}

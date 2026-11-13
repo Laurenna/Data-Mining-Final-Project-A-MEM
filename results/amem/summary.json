@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "questions": 200,
+  "mean_metrics": {
+    "f1": 0.485989776162176,
+    "bleu1": 0.4302481138821201
+  },
+  "new_batch_api_attempts": 12462,
+  "note": "Equal-size uniform QA samples; full histories retained. Not a full benchmark evaluation."
+}

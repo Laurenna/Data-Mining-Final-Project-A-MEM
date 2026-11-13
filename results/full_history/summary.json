@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "reason": "",
+  "completed_questions": 200,
+  "total_questions": 200,
+  "mean_metrics": {
+    "f1": 0.6130691486660914,
+    "bleu1": 0.5607109591189247
+  },
+  "usage": {
+    "attempts": 202,
+    "successful_calls": 202,
+    "prompt_tokens": 4111983,
+    "completion_tokens": 2586,
+    "token_usage_missing": 0,
+    "unknown_outcome_attempts": 0,
+    "errors": 2,
+    "attempts_by_phase": {
+      "full_history_qa": 202
+    },
+    "max_calls": 300,
+    "max_output_tokens": 1500,
+    "billing_note": "Token usage from returned responses only; failed/interrupted requests may still incur charges. Check provider billing."
+  }
+}
