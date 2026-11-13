@@ -131,4 +131,4 @@ A-Mem source was adapted from [WujiangXu/AgenticMemory](https://github.com/Wujia
 - Maharana et al. (2024), [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753).
 - LoCoMo data: [official repository](https://github.com/snap-research/locomo), with the evaluated file also distributed in the A-Mem repository. Respect the source dataset's terms.
 
-Codex/ChatGPT assisted with explanation, coding, debugging, evaluation analysis, and report drafting. The report records representative AI queries. DeepSeek was the experimental model. The student is responsible for reviewing the implementation and conclusions.
+Codex/ChatGPT assisted with explanation, coding, debugging, evaluation analysis, and report drafting.
